@@ -12,9 +12,9 @@ jobs:
         run: echo Hallo, word!
       - name: Run a multi-line script
         run: |
-        echo Hallo, word! Multiline.
-        echo Hallo, word! Multiline again.
-        echo Hallo, word! Multiline and again.
+          echo Hallo, word! Multiline.
+          echo Hallo, word! Multiline again.
+          echo Hallo, word! Multiline and again.
   destroyer:
     runs-on: ubuntu-latest
     steps:
@@ -23,9 +23,9 @@ jobs:
         run: echo Hallo, word!
       - name: Run a multi-line script in destroyer
         run: |
-        echo Hallo, word! Multiline.
-        echo Hallo, word! Multiline again.
-        echo Hallo, word! Multiline and again.
+          echo Hallo, word! Multiline.
+          echo Hallo, word! Multiline again.
+          echo Hallo, word! Multiline and again.
   recovery:
     runs-on: ubuntu-latest
     steps:
@@ -34,6 +34,6 @@ jobs:
         run: echo Hallo, word!
       - name: Run a multi-line script in recovery
         run: |
-        echo Hallo, word! Multiline.
-        echo Hallo, word! Multiline again.
-        echo Hallo, word! Multiline and again.
+          echo Hallo, word! Multiline.
+          echo Hallo, word! Multiline again.
+          echo Hallo, word! Multiline and again.
