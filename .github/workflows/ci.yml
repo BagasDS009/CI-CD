@@ -20,17 +20,11 @@ jobs:
       - uses: actions/checkout@v3
       - name: Run one script in destroyer
         run: echo Hallo, word!
-      - name: Run a multi-line script in destroyer
-        run: |
-          echo Hallo, word! Multiline.
-          echo Hallo, word! Multiline again.
+
   recovery:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Run one script in recovery 
         run: echo Hallo, word!
-      - name: Run a multi-line script in recovery
-        run: |
-          echo Hallo, word! Multiline.
-          echo Hallo, word! Multiline again.
+ 
