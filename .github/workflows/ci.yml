@@ -1,7 +1,7 @@
 name: Bagas CI-CD
 
 on: 
-  Push:
+  push:
     branches: [ master ]
 jobs:
   build:
@@ -14,7 +14,6 @@ jobs:
         run: |
           echo Hallo, word! Multiline.
           echo Hallo, word! Multiline again.
-          echo Hallo, word! Multiline and again.
   destroyer:
     runs-on: ubuntu-latest
     steps:
@@ -25,7 +24,6 @@ jobs:
         run: |
           echo Hallo, word! Multiline.
           echo Hallo, word! Multiline again.
-          echo Hallo, word! Multiline and again.
   recovery:
     runs-on: ubuntu-latest
     steps:
@@ -36,4 +34,3 @@ jobs:
         run: |
           echo Hallo, word! Multiline.
           echo Hallo, word! Multiline again.
-          echo Hallo, word! Multiline and again.
